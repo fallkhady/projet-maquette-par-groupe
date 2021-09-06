@@ -1,0 +1,117 @@
+
+.container{
+    overflow: hidden;
+  }
+  
+  .img{
+      position: relative;
+      margin: 0 auto;
+      left: 300px;
+      bottom: 550px;
+  }
+  
+  .logo{
+      position: relative;
+      margin: 0 auto;
+      float: left;
+      right: 120px;
+      bottom: 185px;
+     
+  }
+  
+ 
+  
+  
+  
+  .menu{
+      display: flex;
+     
+  
+  }
+  
+  .item{
+      display: inline-block;
+      padding: 1em 1em;
+  }
+  .menu li a.active{
+      background: rgb(110, 107, 107);
+      
+  }
+  
+  .menu li a{
+      text-decoration: none;
+      background-color: red;
+      padding: 12px 12px;
+      color: #fff;
+  }
+  
+  
+  
+  .navbar{
+      position: relative;
+      margin: 0 auto;
+      left: 350px;
+      bottom: 550px;
+  }
+  
+  .menu li :hover{
+      background-color: rgb(110, 107, 107);
+      padding:  12px 12px;   
+  }
+  
+  
+    
+    .footer{
+      background: rgb(39, 38, 38);
+      height: 300px;
+      position: relative;
+      margin: 0 auto;
+      bottom: 470px;
+      margin-bottom: 0;
+      overflow: hidden;
+      
+  
+    }
+  
+    .text{
+      position: relative;
+      margin: 0 auto;
+      bottom: 480px;
+      text-align: center;
+    }
+  
+   .footer img{
+     position: relative;
+     margin: 0 auto;
+     right: 100px;
+     bottom: 130px;
+   }
+  
+   .para1{
+     position: relative;
+     margin: 0 auto;
+     bottom: 450px;
+     color: white;
+     font-family: sans-serif;
+     text-align: center;
+     right: 100px;
+   }
+  
+   .para2{
+    position: relative;
+    margin: 0 auto;
+    bottom: 585px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    left: 350px;
+  }
+  
+  .pgras{
+    border: 7px solid #fff;
+    width: 170px;
+    position: relative;
+    margin: 0 auto;
+    left: 4px;
+  }
+  

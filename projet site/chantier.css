@@ -1,0 +1,362 @@
+.container{
+    overflow: hidden;
+  }
+  
+  .img{
+      position: relative;
+      margin: 0 auto;
+      left: 300px;
+      bottom: 550px;
+  }
+  
+  .logo{
+      position: relative;
+      margin: 0 auto;
+      float: left;
+      right: 120px;
+      bottom: 185px;
+     
+  }
+  
+  form{
+      position: relative;
+      margin: 0 auto;
+      bottom: 530px;
+      background: red;
+      height: 400px;
+      width: 220px;
+      right: 530px;
+  
+      
+  }
+  
+  form input{
+      display: block;
+      margin-bottom: 20px;
+      height: 30px;
+      margin-top: 20px;
+      margin-left: 20px;
+      border-radius: 0.5rem;
+      border: white 0px;
+      color: rgb(187, 180, 180);
+      text-align: center;
+   
+  }
+  
+  
+  
+  .button-submit{
+      position: relative;
+      margin: 0 auto;
+      background-color: rgb(165, 160, 160);
+      color: black;
+  
+  }
+  
+  form label::after {
+      content: "";
+      display: block;
+      margin-bottom: 10px;
+      width: 190px;
+      height: 2px;
+      background: #fff;
+      position: relative;
+  }
+  
+  form label{
+      position: relative;
+      margin: 0 auto;
+      top: 8px;
+      text-transform: uppercase;
+      color: whitesmoke;
+      font-size: 30px;
+      font-family: sans-serif;
+      left: 10px;
+  
+  }
+  
+  .menu{
+      display: flex;
+     
+  
+  }
+  
+  .item{
+      display: inline-block;
+      padding: 1em 1em;
+  }
+  .menu li a.active{
+      background: rgb(110, 107, 107);
+      
+  }
+  
+  .menu li a{
+      text-decoration: none;
+      background-color: red;
+      padding: 12px 12px;
+      color: #fff;
+  }
+  
+  
+  
+  .navbar{
+      position: relative;
+      margin: 0 auto;
+      left: 350px;
+      bottom: 550px;
+  }
+  
+  .menu li :hover{
+      background-color: rgb(110, 107, 107);
+      padding:  12px 12px;   
+  }
+  
+  
+    
+    .footer{
+      background: rgb(39, 38, 38);
+      height: 300px;
+      position: relative;
+      margin: 0 auto;
+      margin-bottom: 0;
+      overflow: hidden;
+      top: 400px;
+      left: 10px;
+      
+  
+    }
+  
+    .text{
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+      top: 400px;
+    }
+  
+   .footer img{
+     position: relative;
+     margin: 0 auto;
+     right: 100px;
+     bottom: 130px;
+   }
+  
+   .para1{
+     position: relative;
+     margin: 0 auto;
+     bottom: 450px;
+     color: white;
+     font-family: sans-serif;
+     text-align: center;
+     right: 100px;
+   }
+  
+   .para2{
+    position: relative;
+    margin: 0 auto;
+    bottom: 585px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    left: 350px;
+  }
+  
+  .pgras{
+    border: 7px solid #fff;
+    width: 170px;
+    position: relative;
+    margin: 0 auto;
+    left: 4px;
+  }
+  
+  .col1{
+    position: relative;
+    margin: 0 auto;
+    background-color: green;
+    width: 50%;
+    height: 300px;
+    bottom: 500px;
+    right: 300px;
+   
+  }
+  
+  .col1 p{
+  
+    position: relative;
+    margin: 0 auto;
+    top: 70px;
+    color: #fff;
+    font-size: 30px;
+    left: 20px;
+  }
+  .col1 p a{
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    left: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+  }
+  
+  .imag1{
+      position: relative;
+      margin: 0 auto;
+      left: 51%;
+      bottom: 800px;
+    
+  }
+
+  
+.section2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 500px;
+    left: 30px;
+    
+}
+.section2_1 .facade{
+    position: absolute;
+    z-index: 1;
+    overflow:none;
+    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 40%);
+}
+.section2_1 .btn{
+    position:absolute;
+    width:600px;
+    height:400px;
+    z-index:2;
+    font-size:200%;
+    margin-top: 160px;
+    margin-left: 50px;
+}
+.section2_1 .btn button{
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border:2px solid black;
+    
+}
+.section2_2 .pro{
+    position:absolute;
+    z-index: 1;
+    overflow:none;
+    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 40%);
+    
+}
+.section2_2 .btn{
+    position:absolute;
+    width:600px;
+    height:400px;
+    z-index:2;
+    font-size:200%;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.section2_2 .btn button{
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border:2px solid black;
+}
+
+.section2_3 .bois{
+    position:absolute;
+    margin-top: 290px;
+    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 40%);
+    
+}
+.section2_3 .btn{
+    position:absolute;
+    width:600px;
+    height:400px;
+    z-index:2;
+    font-size:200%;
+    margin-top: 450px;
+    margin-left: 85px;
+}
+.section2_3 .btn button{
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border:2px solid black;
+}
+
+
+.section2_4 .mur{
+    position:absolute;
+    margin-top: 290px;
+    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 40%);
+    
+}
+.section2_4 .btn{
+    position:absolute;
+    width:600px;
+    height:400px;
+    z-index:2;
+    font-size:200%;
+    margin-top: 460px;
+    margin-left: 85px;
+}
+.section2_4 .btn button{
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border:2px solid black;
+}
+
+.section2_5 .carro{
+    position:absolute;
+    margin-top: 590px;
+    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 40%);
+    
+}
+.section2_5 .btn{
+    position:absolute;
+    width:600px;
+    height:400px;
+    z-index:2;
+    font-size:200%;
+    margin-top: 750px;
+    margin-left: 85px;
+}
+.section2_5 .btn button{
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border:2px solid black;
+}
+
+.section2_6 .metal{
+    position:absolute;
+    margin-top: 590px;
+    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 40%);
+    
+}
+.section2_6 .btn{
+    position:absolute;
+    width:600px;
+    height:400px;
+    z-index:2;
+    font-size:200%;
+    margin-top: 750px;
+    margin-left: 85px;
+}
+.section2_6 .btn button{
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border:2px solid black;
+}
+  
